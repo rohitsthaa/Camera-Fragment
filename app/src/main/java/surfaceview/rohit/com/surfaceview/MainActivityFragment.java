@@ -44,7 +44,7 @@ public class MainActivityFragment extends Fragment {
         FrameLayout fl = (FrameLayout) view.findViewById(R.id.layout);
         fl.addView(preview);
         preview.setKeepScreenOn(true);
-        Button buttonClick = (Button) view.findViewById(R.id.btnLoadWeather);
+        Button buttonClick = (Button) view.findViewById(R.id.screenshot);
 
         buttonClick.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
